@@ -1,0 +1,23 @@
+{
+  "name": "portafolio",
+  "version": "0.0.1",
+  "description": "Portafolio laboratoria",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamilaEspinozaMoya/portafolio.git"
+  },
+  "keywords": [
+    "portafolio",
+    "developer"
+  ],
+  "author": "Camila Espinoza Moya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CamilaEspinozaMoya/portafolio/issues"
+  },
+  "homepage": "https://github.com/CamilaEspinozaMoya/portafolio#readme"
+}
