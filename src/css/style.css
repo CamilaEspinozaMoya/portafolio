@@ -31,7 +31,7 @@
   height: 70px;
 }
 
-img {
+#foto {
   display: inline;
   border-radius: 200px 200px 200px 200px;
     -moz-border-radius: 200px 200px 200px 200px;
@@ -42,3 +42,4 @@ img {
     margin-right: auto;
     display: block;
 }
+
