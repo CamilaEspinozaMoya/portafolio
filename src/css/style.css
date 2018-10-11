@@ -1,22 +1,9 @@
-#profile {
-  padding-top: 2em;
-  border-radius: 200px 200px 200px 200px;
-    -moz-border-radius: 200px 200px 200px 200px;
-    -webkit-border-radius: 200px 200px 200px 200px;
-    border: 0px solid #000000;
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-#navcolor {
-  background-color: #1F618D;
-}
-
-#holo {
-  background-color: #1F618D;
-  color: #F2F3F4;
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #262626;
+  color: #fff;
 }
 
 .morado {
@@ -29,6 +16,69 @@
 
 #final {
   height: 70px;
+}
+
+/* Sidenav */
+
+#profile {
+  padding-top: 2em;
+  border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#holo {
+  background: #51D2B7;
+  color: #F2F3F4;
+}
+
+.background {
+  background: #262626;
+}
+
+#navbar {
+  background: #262626;
+}
+
+/* home */
+
+#particles-js {
+  height: 100%;
+  background: #262626;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-welcome {
+  width: 550px;
+  height: 550px;
+  background-color: #51D2B7;
+  opacity: 0.8;
+  border-radius: 100%;
+  position: absolute;
+  font-weight: 800;
+  color: #fff;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+/* Acerca de mi */
+
+.card {
+  background-color: #51D2B7;
+  opacity: 0.8;
+}
+
+.card-stacked {
+  margin: auto;
 }
 
 #foto {
