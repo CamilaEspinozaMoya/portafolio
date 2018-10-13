@@ -73,8 +73,9 @@ body {
 /* Acerca de mi */
 
 .card {
-  background-color: #51D2B7;
+  background-color: #262626;
   opacity: 0.8;
+  float: left;
 }
 
 .card-stacked {
@@ -93,3 +94,7 @@ body {
     display: block;
 }
 
+/* proyectos */
+.card-img-top {
+  width: 100%;
+}
