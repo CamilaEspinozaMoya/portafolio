@@ -76,6 +76,8 @@ body {
   background-color: #262626;
   opacity: 0.8;
   float: left;
+  padding: 20px;
+  margin: 80px;
 }
 
 .card-stacked {
@@ -97,4 +99,8 @@ body {
 /* proyectos */
 .card-img-top {
   width: 100%;
+}
+
+.fa-linkedin, .fa-github, .fa-download, .fa-mobile {
+  padding: 80px;
 }
