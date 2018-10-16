@@ -103,4 +103,6 @@ body {
 
 .fa-linkedin, .fa-github, .fa-download, .fa-mobile {
   padding: 80px;
+  color: #51D2B7;
+  opacity: 0.8;
 }
