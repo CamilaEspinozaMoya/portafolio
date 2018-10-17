@@ -14,35 +14,16 @@ body {
   height: 100vh;
 }
 
-#final {
-  height: 70px;
-}
 
 /* Sidenav */
 
-#profile {
-  padding-top: 2em;
-  border-radius: 200px 200px 200px 200px;
-    -moz-border-radius: 200px 200px 200px 200px;
-    -webkit-border-radius: 200px 200px 200px 200px;
-    border: 0px solid #000000;
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-#holo {
+.btn-floating {
   background: #51D2B7;
-  color: #F2F3F4;
+  opacity: 0.8;
 }
 
-.background {
-  background: #262626;
-}
-
-#navbar {
-  background: #262626;
+.sidenav-trigger {
+  margin: 10px;
 }
 
 /* home */
@@ -72,28 +53,20 @@ body {
 
 /* Acerca de mi */
 
-.card {
-  background-color: #262626;
-  opacity: 0.8;
-  float: left;
-  padding: 20px;
-  margin: 80px;
+#sobre {
+  margin-top: 100px;
 }
 
-.card-stacked {
-  margin: auto;
+.texto {
+  margin-top: 100px;
 }
 
-#foto {
-  display: inline;
-  border-radius: 200px 200px 200px 200px;
-    -moz-border-radius: 200px 200px 200px 200px;
-    -webkit-border-radius: 200px 200px 200px 200px;
-    border: 0px solid #000000;
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+/* skills */
+
+.sk {
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 
 /* proyectos */
@@ -101,8 +74,13 @@ body {
   width: 100%;
 }
 
-.fa-linkedin, .fa-github, .fa-download, .fa-mobile {
+.cont {
   padding: 80px;
   color: #51D2B7;
   opacity: 0.8;
+}
+
+h1 {
+  align-content: center;
+  text-align: center;
 }

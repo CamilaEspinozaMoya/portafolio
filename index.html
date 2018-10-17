@@ -25,18 +25,18 @@
   <body>
     <!-- Navbar -->
     <section id="navbar">
-    <ul id="slide-out" class="sidenav">
-      <li><div class="user-view">
-        <a href="#user"><img class="circle" src="src/img/11903959_10207277210586971_7038452452358069327_n.jpg"></a>
-        <a href="#"><span>Cami EM</span></a>
-      </div></li>
-      <li><a href="#home"><i class="material-icons">home</i>Home</a></li>
-      <li><a href="#about"><i class="material-icons">person</i>Acerca de mí</a></li>
-      <li><a href="#skills"><i class="material-icons">palette</i>Habilidades</a></li>
-      <li><a href="#projects"><i class="material-icons">computer</i>Proyectos</a></li>
-      <li><a href="#contact"><i class="material-icons">contact_mail</i>Contacto</a></li>
-    </ul>
-    <a href="#" data-target="slide-out" class="sidenav-trigger btn-floating pulse"><i class="large material-icons">menu</i></a>
+        <div class="fixed-action-btn">
+            <a class="btn-floating btn-large sidenav-trigger pulse">
+                <i class="large material-icons">menu</i>
+            </a>
+            <ul>
+              <li><a href="#home"  class="btn-floating"><i class="material-icons">home</i></a>Home</li>
+              <li><a href="#about" class="btn-floating"><i class="material-icons">person</i></a>Sobre mí</li>
+              <li><a href="#skills" class="btn-floating"><i class="material-icons">palette</i></a>Habilidades</li>
+              <li><a href="#projects" class="btn-floating"><i class="material-icons">computer</i></a>Proyectos</li>
+              <li><a href="#contact" class="btn-floating"><i class="material-icons">contact_mail</i></a>Contacto</li>
+            </ul>
+          </div>
     </section>
     <!-- inicio -->
     <section id="home" class="lila">
@@ -50,106 +50,48 @@
     </section>
     <!-- Acerca de mi -->
     <section id="about" class="morado">
-      <div class="row">
-        <div class="col s12 m12 l6 xl6">
-          <div class="row about-cont foo-about">
-            <h2>Hola, <br> Mi nombre es <br><p style="color: #51D2B7; margin: 5px;"><b>Camila Espinoza</b></p></h2>
-          </div>
-          <div class="row foo-about">
-            <div class="col s12 m12 l6 xl6 left-align">
-              <p>Soy Front-end Developer egresada de laboratoria con experiencia como administrativo en recursos humanos. Me considero una persona proactiva, responsable y busco entregar lo mejor de mí en cada proyecto.</p>
-            </div>
-            <div class="col s12 m12 l6 xl6 left-align">
-              <p>Laboratoria me ha entregado las herramientas para trabajar con entusiasmo, autonomía y pasión. Me encanta aprender, contribuir y luchar por llegar al mejor resultado</p>
-            </div>
-        </div>
-            </div>
-            <div class="col s12 m12 l6 xl6 right-align">
-              <img class="responsive-img circle" src="src/img/Captura de pantalla 2018-10-11 a la(s) 12.15.46.png" style="margin-bottom: -6px;" alt="Profile Picture">
-            </div>
+        <div class="row container" id="sobre">
+          <h1>Sobre mí</h1>
+          <div class="col s12 m6 l6 texto" >
+            <p>Soy Front-end Developer egresada de laboratoria con experiencia como administrativo en recursos humanos. Me considero una persona proactiva, responsable y busco entregar lo mejor de mí en cada proyecto.</p>
+            <p>Laboratoria me ha entregado las herramientas para trabajar con entusiasmo, autonomía y pasión. Me encanta aprender, contribuir y luchar por llegar al mejor resultado</p></div>
+          <div class="col s12 m6 l6">
+            <img class="responsive-img circle" src="src/img/Captura de pantalla 2018-10-17 a la(s) 11.13.23.png" style="margin-bottom: -6px;" alt="Profile Picture">
           </div>
         </div>
     </section>
     <!-- Habilidades -->
     <section id="skills" class="lila">
-        <div class="row center-align skills-cont">
-            <div class="col s12 m12 l4 xl4">
-              <div class="row foo-skills">
-                <div class="col s12 m12 l6 xl6">
-                    <i class="fab fa-css3-alt"></i>
-                </div>
-                <div class="col s12 m12 l6 xl6">
-                  <h5>CSS3</h5>
-                </div>
-              </div>
-              <div class="row foo-skills">
-                <div class="col s12 m12 l6 xl6">
-                  <i class="fab fa-js-square"></i>
-                </div>
-                <div class="col s12 m12 l6 xl6">
-                  <h5>Javascript</h5>
-                </div>
-              </div>
-              <div class="row foo-skills">
-                <div class="col s12 m12 l6 xl6">
-                  <img class="materializelogo" src="assets/img/materializew.png" alt="">
-                </div>
-                <div class="col s12 m12 l6 xl6">
-                  <h5>Materialize</h5>
-                </div>
-              </div>
-              <div class="row foo-skills">
-                <div class="col s12 m12 l6 xl6">
-                  <i class="fab fa-angular"></i>
-                </div>
-                <div class="col s12 m12 l6 xl6">
-                  <h5>Angular</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col s12 m12 l4 xl4 valign-wrapper leaf">
-              <div class="row">
-              </div>
-            </div>
-            <div class="col s12 m12 l4 xl4">
-              <div class="row foo-skills">
-                <div class="col s12 m12 l6 xl6">
-                  <h5>HTML6</h5>
-                </div>
-                <div class="col s12 m12 l6 xl6">
-                  <i class="devicon-html5-plain"></i>
-                </div>
-              </div>
-              <div class="row foo-skills">
-                <div class="col s12 m12 l6 xl6">
-                  <h5>jQuery</h5>
-                </div>
-                <div class="col s12 m12 l6 xl6">
-                  <i class="devicon-jquery-plain-wordmark"></i>
-                </div>
-              </div>
-              <div class="row foo-skills">
-                <div class="col s12 m12 l6 xl6">
-                  <h5>Bootstrap</h5>
-                </div>
-                <div class="col s12 m12 l6 xl6">
-                  <i class="devicon-bootstrap-plain"></i>
-                </div>
-              </div>
-              <div class="row foo-skills">
-                <div class="col s12 m12 l6 xl6">
-                  <h5>Github</h5>
-                </div>
-                <div class="col s12 m12 l6 xl6">
-                    <i class="fab fa-github"></i>
-                </div>
-              </div>
-            </div>
+      <h1>Habilidades</h1>
+      <div class="row">
+          <div class="col s12 m12 l6 xl6 sk">
+              <i class="fab fa-css3-alt"></i>
+              <h5>CSS3</h5>
+              <br>
+              <i class="fab fa-js-square"></i>
+              <h5>Javascript</h5>
+              <br>
+              <h5>Materialize</h5>
+              <br>
+              <i class="fab fa-angular"></i>
+              <h5>Angular</h5>
           </div>
+          <div class="col s12 m12 l6 xl6 sk">
+              <h5>HTML5</h5>
+              <br>
+              <h5>jQuery</h5>
+              <br>
+              <h5>Bootstrap</h5>
+              <br>
+              <i class="fab fa-github"></i>
+              <h5>Github</h5>
+          </div>
+      </div>
     </section>
     <!-- Proyectos -->
     <section id="projects" class="morado">
-      <h2>Mis proyectos</h2>
+      <div class="container">
+      <h1>Mis proyectos</h1>
       <div class="col s12 m12 l4 xl4">
 					<div class="allProjects col s12 m12 l12 xl12">
       <div class="card" style="width: 18rem;">
@@ -190,19 +132,21 @@
       </div>
     </div>
   </div>
+</div>
     </section>
     <!-- contacto -->
     <section id="contact" class="lila">
+        <div class="container">
       <h1>Contacto</h1>
       <div class="row contact-cont center-align foo-contact">
           <div class="col s12 m12 l4 xl4">
             <div class="row icon-cont">
               <div class="col s6 m6 l12 xl12">
-                <a class="tooltipped" data-position="top" data-delay="50" data-tooltip="+569 9757 4741"><i class="fas fa-mobile fa-5x"></i></a>
+                <a class="tooltipped" data-position="top" data-delay="50" data-tooltip="+569 9757 4741"><i class="fas fa-mobile fa-5x cont"></i></a>
               </div>
               <div class="col s6 m6 l12 xl12">
                 <a class="tooltipped" data-position="top" data-delay="50" data-tooltip="LinkedIn" target="_blank" href="https://www.linkedin.com/in/camilaem/">
-                  <i class="fab fa-linkedin fa-5x"></i>
+                  <i class="fab fa-linkedin fa-5x cont"></i>
                 </a>
               </div>
             </div>
@@ -217,23 +161,19 @@
             <div class="row icon-cont">
               <div class="col s6 m6 l12 xl12">
                 <a class="tooltipped" data-position="top" data-delay="50" data-tooltip="Github" target="_blank" href="https://github.com/CamilaEspinozaMoya">
-                  <i class="fab fa-github fa-5x"></i>
+                  <i class="fab fa-github fa-5x cont"></i>
                 </a>
               </div>
               <div class="col s6 m6 l12 xl12">
                 <a class="tooltipped" data-position="top" data-delay="50" data-tooltip="Descarga mi CV" href="src/img/cv Camila Espinoza.pdf" download>
-                  <i class="fas fa-download fa-5x"></i>
+                  <i class="fas fa-download fa-5x cont"></i>
                 </a>
               </div>
             </div>
           </div>
         </div>
+      </div>
     </section>
-    <!-- final -->
-    <section id="final">
-
-    </section>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
