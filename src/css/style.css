@@ -144,6 +144,14 @@ h2 {
   text-align: center;
 }
 
+@media (max-width: 2560px) {
+
+  .ima {
+    width: 50% !important;
+  }
+}
+
+
 @media (max-width: 768px) {
 
   .container-welcome {
