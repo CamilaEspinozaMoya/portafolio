@@ -53,6 +53,13 @@ body {
 
 /* Acerca de mi */
 
+.responsive-img {
+  width: 80%;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 #sobre {
   margin-top: 100px;
 }
@@ -74,9 +81,15 @@ h5 {
   opacity: 0.8;
 }
 
-skill{
-  width: 1000%;
+.skill{
+  font-size: 4em;
 }
+
+#iconMat {
+  height: 60px;
+}
+
+
 
 /* proyectos */
 
@@ -90,10 +103,14 @@ skill{
   display: flex;
    justify-content: center;
    align-items: center;
+   position: relative;
+   border-radius: .5em .5em 0 0;
 }
 
 .card-content{
   height: 220px;
+  background-color: teal;
+
 }
 
 .card-action {
@@ -102,10 +119,15 @@ skill{
   text-align: center;
   color: #51D2B7;
   opacity: 0.8;
+  background-color: gray ;
+}
+
+.card .card-action {
+  border-radius: 0 0 .5em .5em;
+  background-color: gray ;
 }
 
 .cont {
-  padding: 80px;
   color: #51D2B7;
   opacity: 0.8;
   justify-content: center;
@@ -114,10 +136,45 @@ skill{
 }
 
 .aa {
-  color: #51D2B7 !important;
+  color: teal !important;
 }
 
-h1 {
+h2 {
   align-content: center;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+
+  .container-welcome {
+    width: 300px;
+    height: 300px;
+  }
+
+  .container-welcome h1 {
+    font-size: 2.6em; 
+    margin-bottom: 0;
+  }
+  .container-welcome h4 {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 2.0em; 
+    margin-bottom: 0;
+  }
+
+  #skills {
+    padding: 10px 0;
+  }
+
+  .card {
+    width: 250px;
+  }
+
+  .card-image {
+  width: 100%; 
+  }
+
+} 
